@@ -1,7 +1,9 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown:         rdiscount
+highlighter:      pygments
 
+#
+encoding:         "utf-8"
 # Permalinks
 permalink:        pretty
 
@@ -9,16 +11,19 @@ permalink:        pretty
 title:            FloatingMuseum
 tagline:          'Want to be a better guy'
 description:      'A normal Android developer.'
-url:              http://floatingmuseum.github.io
+url:		  http://floatingmuseum.github.io
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'SooHu'
+  url:            https://github.com/SooHu
 
 paginate:         5
 
 # Custom vars
-version:          2.0.0
+version:          1.0.0
 
-github:
-  repo:           https://github.com/floatingmuseum
+# duoshuo
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : Floatingmuseum
