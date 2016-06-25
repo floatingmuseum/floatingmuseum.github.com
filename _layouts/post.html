@@ -34,11 +34,7 @@
       </a>
     </h1>
       <p class="post-info">
-        {% if page.author == "FloatingMuseum" %}
-          {{ page.author }}原创
-        {% else %}
-          转载{{ page.author }}
-        {% endif %}
+{{ page.author }}原创
       </p>
       <span class="post-info"><i class="fa fa-calendar"></i>&nbsp{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}  </span>
       <span class="post-info"><i class="fa fa-book"></i>&nbsp<a href="/category/index.html#{{ page.categories }}">{{ page.categories }}</a></span>
