@@ -1,7 +1,8 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-
+# Gems
+gems: [jekyll-paginate]
 #
 encoding:         "utf-8"
 # Permalinks
