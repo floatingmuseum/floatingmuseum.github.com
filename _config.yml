@@ -1,30 +1,53 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-# Gems
-gems: [jekyll-paginate]
-#
-encoding:         "utf-8"
-# Permalinks
-permalink:        pretty
+# Jekyll configuration
 
-# Setup
-title:            FloatingMuseum
-tagline:          'Want to be a better guy'
-description:      'A normal Android developer.'
-url:		  http://floatingmuseum.github.io
+name: Blog Name
+description: Software Developer
 
-author:
-  name:           'FloatingMuseum'
-  url:            http://floatingmuseum.github.io
+# Url is currently only used only for the RSS feed in feed.xml
+url: http://streetturtle.github.io
+#url: http://localhost:4000
 
-paginate:         5
+# For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
+baseurl: '/jekyll-clean-dark'
 
-# Custom vars
-version:          1.0.0
+share:
+  facebook: true
+  twitter: true
+  gplus: true
+  linkedin: true
+  pinterest: true
+  email: true
 
-# duoshuo
-comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : floatingmuseum
+social:
+  github: streetturtle
+  stackoverflow: ''
+  linkedin:
+  instagram: ''
+  lastfm: ''
+  rss: feed.xml
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
+# Yandex metrika (https://metrica.yandex.com/) leave blank to ignore or put true to use
+yandex_metrica:
+
+
+# Set this to your disqus shortname to enable comments. Note that the 'comments'
+# setting below must also be true. Individual posts can override 'comments' to
+# disable on a post-by-post basis
+disqus: streetturtle
+comments: false
+
+permalink: /:year/:month/:title
+
+# Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
+#paginate: 3
+
+#highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: true
+
+exclude: ['README.md', 'LICENSE']
