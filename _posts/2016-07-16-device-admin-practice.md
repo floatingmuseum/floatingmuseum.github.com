@@ -2,6 +2,7 @@
 layout: post
 title: "DeviceAdmin简单实践"
 tags: Android
+comments: true
 ---
 
 ## **简介** ##

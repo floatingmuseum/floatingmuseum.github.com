@@ -2,6 +2,7 @@
 layout: post
 title: "解决Android4.2版本广播刷新图库无效"
 tags: Android
+comments: true
 ---
 
 ## 问题描述
